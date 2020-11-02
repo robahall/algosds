@@ -77,6 +77,7 @@ def postorderTraversal(root: TreeNode):
 if __name__ == "__main__":
     #bin_tree_order = [1, None, 2, 3]
     root = TreeNode(1, None, TreeNode(2, TreeNode(3, None, None), None))
-    print(preorderTraversal(root))
-    print(inorderTraversal(root))
-    print(postorderTraversal(root))
+    root_2 = TreeNode(5, TreeNode(1), TreeNode(4, TreeNode(3), TreeNode(6)))
+    print(preorderTraversal(root_2))
+    print(inorderTraversal(root_2))
+    print(postorderTraversal(root_2))
